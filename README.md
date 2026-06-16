@@ -42,6 +42,16 @@ Toàn bộ cấu trúc bám **Nguyên lý 3 Điểm Chạm** của ColorMedia: *
 
 ---
 
+## 🎞️ Case study thật
+
+Treatment **SEONGON — Tái định vị thương hiệu 2026** (45 slide) dựng bằng chính skill này:
+
+[![SEONGON Director Treatment 2026](docs/case-studies/seongon-treatment-thumb.png)](https://canva.link/5om0ujrudjyw5w0)
+
+🔗 Xem bản đầy đủ: https://canva.link/5om0ujrudjyw5w0 · Thêm case study khác tại [docs/CASE-STUDIES.md](docs/CASE-STUDIES.md)
+
+---
+
 ## Khi nào dùng / không dùng
 
 ✅ **Dùng khi:** làm treatment, dựng treatment đạo diễn, director treatment, treatment TVC / phim doanh nghiệp / brand film, proposal có storyboard, đóng gói kịch bản đã chốt thành hồ sơ hình ảnh gửi khách.
@@ -73,6 +83,7 @@ Skill chạy theo nguyên tắc **graceful fallback** — thiếu công cụ nà
 | [docs/USAGE.md](docs/USAGE.md) | Hướng dẫn dùng từng bước: chuẩn bị gì, agent hỏi gì, quy trình 12 bước. |
 | [docs/PROMPT-LIBRARY.md](docs/PROMPT-LIBRARY.md) | Thư viện prompt copy-paste: prompt ảnh theo góc Đạo diễn/DOP, style prompt Suno, truy vấn tìm reference. |
 | [docs/EXAMPLE-walkthrough.md](docs/EXAMPLE-walkthrough.md) | **Demo** một phiên chạy hoàn chỉnh (ví dụ minh hoạ TVC bia) từ brief → output. |
+| [docs/CASE-STUDIES.md](docs/CASE-STUDIES.md) | **Case study thật** — treatment SEONGON 2026 (45 slide) dựng bằng skill. |
 | [plugins/director-treatment/skills/treatment/references/treatment_architecture_v1_3.md](plugins/director-treatment/skills/treatment/references/treatment_architecture_v1_3.md) | Spec gốc đầy đủ (ma trận section, QC checklist, template pptxgenjs). |
 | [CHANGELOG.md](CHANGELOG.md) | Lịch sử phiên bản. |
 
