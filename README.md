@@ -6,6 +6,8 @@
 
 ![version](https://img.shields.io/badge/treatment-v1.3-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![platform](https://img.shields.io/badge/Claude%20Code-plugin-orange)
 
+🔗 **Trang giới thiệu skill:** **[dir.tere.vn](https://dir.tere.vn)** — *"Treatment đạo diễn bán được niềm tin."*
+
 ---
 
 ## TL;DR — cài trong 30 giây
