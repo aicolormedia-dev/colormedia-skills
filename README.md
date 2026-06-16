@@ -1,4 +1,4 @@
-# 🎬 ColorMedia Skills — Claude Code Marketplace
+# 🎬 ColorMedia Skills | DIRECTOR TREATMENT — Claude Code Marketplace
 
 > Bộ skill sản xuất phim của **ColorMedia / MMCorp** cho [Claude Code](https://claude.com/claude-code).
 > Skill đầu tiên: **`treatment`** — Kiến trúc & dựng hồ sơ Treatment đạo diễn (v1.3, *generate-first*).
