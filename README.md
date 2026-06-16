@@ -8,12 +8,9 @@ Cài qua cơ chế plugin marketplace của Claude Code.
 Trong Claude Code, chạy:
 
 ```
-/plugin marketplace add hoangdung-colormedia/colormedia-skills
+/plugin marketplace add aicolormedia-dev/colormedia-skills
 /plugin install colormedia@colormedia-skills
 ```
-
-> Thay `hoangdung-colormedia/colormedia-skills` bằng `owner/repo` GitHub thật của bạn
-> (định dạng ngắn `owner/repo`, hoặc URL đầy đủ `https://github.com/owner/repo.git`).
 
 Sau khi cài, khởi động lại phiên Claude Code. Skill sẽ xuất hiện dưới namespace
 `colormedia:` — ví dụ gọi treatment bằng:
