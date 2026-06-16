@@ -10,8 +10,8 @@
 ## TL;DR — cài trong 30 giây
 
 ```
-/plugin marketplace add aicolormedia-dev/director-treatment-skills
-/plugin install director-treatment@director-treatment-skills
+/plugin marketplace add aicolormedia-dev/dir-treatment
+/plugin install director-treatment@dir-treatment
 ```
 Khởi động lại Claude Code → gõ `/director-treatment:treatment`, hoặc chỉ cần nói *"tạo treatment cho dự án này"* và đính kèm kịch bản — Claude sẽ tự gọi skill.
 
@@ -81,7 +81,7 @@ Skill chạy theo nguyên tắc **graceful fallback** — thiếu công cụ nà
 ## Cấu trúc repo
 
 ```
-director-treatment-skills/
+dir-treatment/
 ├── .claude-plugin/marketplace.json     # khai báo marketplace
 ├── plugins/director-treatment/
 │   ├── .claude-plugin/plugin.json      # manifest plugin
@@ -99,7 +99,7 @@ director-treatment-skills/
 
 | Triệu chứng | Nguyên nhân & cách xử lý |
 |---|---|
-| `Unknown command: /director-treatment:` | Chưa cài plugin, hoặc gõ có dấu cách. Chạy `/plugin install director-treatment@director-treatment-skills`, **restart**, rồi gõ liền `/director-treatment:treatment`. |
+| `Unknown command: /director-treatment:` | Chưa cài plugin, hoặc gõ có dấu cách. Chạy `/plugin install director-treatment@dir-treatment`, **restart**, rồi gõ liền `/director-treatment:treatment`. |
 | Gõ `/` không thấy skill | Chưa restart sau khi cài. Đóng và mở lại Claude Code. |
 | Agent chỉ tạo placeholder, không tạo ảnh/nhạc | Thiếu Claude-in-Chrome / chưa đăng nhập ChatGPT/Suno. Xem bảng Prerequisites. |
 | Không ra file Canva | Canva MCP chưa kết nối → skill tự fallback sang outline. |
@@ -111,7 +111,7 @@ director-treatment-skills/
 1. Sửa `plugins/director-treatment/skills/treatment/SKILL.md` hoặc file trong `references/`.
 2. Tăng `version` trong `plugin.json` **và** `marketplace.json`.
 3. Cập nhật `CHANGELOG.md` → `git commit` & `git push`.
-4. Người dùng chạy `/plugin marketplace update director-treatment-skills` để lấy bản mới.
+4. Người dùng chạy `/plugin marketplace update dir-treatment` để lấy bản mới.
 
 ---
 © ColorMedia / MMCorp — Đạo diễn Hoàng Dũng. License: [MIT](LICENSE).

@@ -1,6 +1,6 @@
 # Changelog
 
-Mọi thay đổi đáng chú ý của marketplace `director-treatment-skills`.
+Mọi thay đổi đáng chú ý của marketplace `dir-treatment`.
 
 ## [1.3.0] — 2026-06-16
 
@@ -14,7 +14,7 @@ Mọi thay đổi đáng chú ý của marketplace `director-treatment-skills`.
 - **Giữ nguyên:** Nguyên lý 3 Điểm Chạm và toàn bộ luật chống-bịa. Thiếu công cụ → fallback minh bạch về placeholder + prompt ẩn (cơ chế v1.2).
 
 ### Hạ tầng phân phối
-- Đóng gói skill thành plugin `director-treatment` trong marketplace `director-treatment-skills`.
+- Đóng gói skill thành plugin `director-treatment` trong marketplace `dir-treatment`.
 - Thêm bộ docs: README, USAGE, PROMPT-LIBRARY, EXAMPLE-walkthrough, sơ đồ pipeline.
 
 ---
