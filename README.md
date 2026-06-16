@@ -2,6 +2,7 @@
 
 > Bộ skill sản xuất phim của **ColorMedia / MMCorp** cho [Claude Code](https://claude.com/claude-code).
 > Skill đầu tiên: **`treatment`** — Kiến trúc & dựng hồ sơ Treatment đạo diễn (v1.3, *generate-first*).
+> Xây bởi **Đạo diễn Hoàng Dũng** — 500+ phim thương hiệu, 500+ khách hàng ([về tác giả](docs/ABOUT-THE-AUTHOR.md)).
 
 ![version](https://img.shields.io/badge/treatment-v1.3-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![platform](https://img.shields.io/badge/Claude%20Code-plugin-orange)
 
@@ -84,6 +85,7 @@ Skill chạy theo nguyên tắc **graceful fallback** — thiếu công cụ nà
 | [docs/PROMPT-LIBRARY.md](docs/PROMPT-LIBRARY.md) | Thư viện prompt copy-paste: prompt ảnh theo góc Đạo diễn/DOP, style prompt Suno, truy vấn tìm reference. |
 | [docs/EXAMPLE-walkthrough.md](docs/EXAMPLE-walkthrough.md) | **Demo** một phiên chạy hoàn chỉnh (ví dụ minh hoạ TVC bia) từ brief → output. |
 | [docs/CASE-STUDIES.md](docs/CASE-STUDIES.md) | **Case study thật** — treatment SEONGON 2026 (45 slide) dựng bằng skill. |
+| [docs/ABOUT-THE-AUTHOR.md](docs/ABOUT-THE-AUTHOR.md) | **Tác giả** — Đạo diễn Hoàng Dũng: track record, khách hàng, phương pháp luận. |
 | [plugins/director-treatment/skills/treatment/references/treatment_architecture_v1_3.md](plugins/director-treatment/skills/treatment/references/treatment_architecture_v1_3.md) | Spec gốc đầy đủ (ma trận section, QC checklist, template pptxgenjs). |
 | [CHANGELOG.md](CHANGELOG.md) | Lịch sử phiên bản. |
 
